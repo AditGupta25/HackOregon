@@ -24,7 +24,7 @@ Dinnercrafter.prototype = Object.create(AlexaSkill.prototype);
 Dinnercrafter.prototype.constructor = Dinnercrafter;
 
 Dinnercrafter.prototype.eventHandlers.onLaunch = function (launchRequest, session, response) {
-    var speechText = "Welcome to the ultimate virtual reality entertainment system! You can use this interface to pull up things on your environment. You can say sample things like, open twitter feed ...... open game statistics ......open Ashton Eaton's Medal Count....open devon allen's Stat's.....Open Suprer fan lounge, and much more.";
+    var speechText = "Welcome to the ultimate virtual reality entertainment system! You can use this interface to pull up things on your environment.............. what can I help you with?";
     // If the user either does not reply to the welcome message or says something that is not
     // understood, they will be prompted again with this text.
     var repromptText = "For instructions on what you can say, please say help me.";
@@ -79,7 +79,7 @@ Dinnercrafter.prototype.intentHandlers = {
     },
 
     "AMAZON.HelpIntent": function (intent, session, response) {
-        var speechText = "You can ask things about entertainment such as, play twitter feed,  ...... open game statistics ......open Ashton Eaton's Medal Count....open devon allen's record.....Open Suprer fan lounge, and much more. or, you can say exit... Now, what can I help you with?";
+        var speechText = "You can say things like, Display Twitter Feed ...... open player records ......open Ashton Eaton's Medal Count....open devon allen's Stat's.....Open Suprer fan VIP lounge.... Display game analysis and much much more. or, you can say exit... Now, what can I help you with?";
         var repromptText = "You can say things like, whats Ashton Eatons Statistics, or you can say exit... Now, what can I help you with?";
         var speechOutput = {
             speech: speechText,

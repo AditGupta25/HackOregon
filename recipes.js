@@ -9,7 +9,8 @@
 */
 
 module.exports = {
-    "twitter Feed": "The live twitter feed is now open and I have placed it on the roof...directly above you",
-    "Ashton Eatons and Devon Allens Record", "I have placed Ashtons and Devons records in your living room",
-    "game analysis", "The in deapth analysis you have requested has been displayed on your environment",
+	"ashton fact": "Ashton James Eaton, born on January 21 1988, is an American decathlete and two-time Olympic champion, who holds the world record in both the decathlon and indoor heptathlon events, and is the second decathlete to break the 9,000-point barrier, with 9,039 points. On August 29, 2015, he beat his own world record with a score of 9,045 points. Ashton stands 6 feet 1inches tall, and weighs 185 pounds.........Brought To You By Sport Radar.",
+    "twitter feed": "The live twitter feed is now open and I have placed it on the roof...directly above you",
+    "player records": "I have placed Ashtons and Devons records in your living room",
+    "game analysis": "The in deapth analysis you have requested has been displayed on your environment"
 };
